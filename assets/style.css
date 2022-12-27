@@ -18,7 +18,6 @@ h1 {
 }
 
 article {
-    background: yellow;
     margin: 10px;
     padding: 10px;
 }
@@ -27,20 +26,19 @@ nav {
     background: lime;
 }
 
-#layout {
-    margin: auto;
-    flex-wrap: wrap;
-    flex: 200px;
+#parent{
+    position: relative;
 }
 
-.about {
-    margin: 10px;
-    padding: 10px;
-    background: purple;
+#block{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
-.contactme {
-    margin:10px;
-    padding: 10px;
-    background: red;
+.firstproject {
+    background-image: url() ;
 }
