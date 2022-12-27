@@ -1,1 +1,32 @@
-/*empty/
+section {
+    display:flex;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: teal;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    line-height: 100px;
+}
+
+article {
+    background: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    background: lime;
+}
+
+.projects {
+    margin: auto;
+}
