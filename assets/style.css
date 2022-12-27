@@ -27,6 +27,20 @@ nav {
     background: lime;
 }
 
-.projects {
+#layout {
     margin: auto;
+    flex-wrap: wrap;
+    flex: 200px;
+}
+
+.about {
+    margin: 10px;
+    padding: 10px;
+    background: purple;
+}
+
+.contactme {
+    margin:10px;
+    padding: 10px;
+    background: red;
 }
