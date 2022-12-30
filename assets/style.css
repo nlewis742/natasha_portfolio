@@ -1,44 +1,138 @@
+
 section {
     display:flex;
+    flex-direction: row;
+    
 }
 
 body {
     margin: 0;
+    background-color: bisque;
 }
 
 header {
     background: teal;
-    height: 100px;
+    height: 150px;
+    display: flex;
 }
 
-h1 {
-    text-align: center;
-    margin: 0;
-    line-height: 100px;
+header nav {
+    /* margin-right: 50px;
+    margin-left: 400px; */
+    padding-top: 15px;
+    float: right;
+    font-size: 20px;
+    align-self: center;
 }
+
+header nav li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin: 0;
+    align-self: center;
+    width: 50%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 
 article {
-    margin: 10px;
-    padding: 10px;
-}
-
-nav {
-    background: lime;
-}
-
-#parent{
+    margin: 2px;
+    padding: 2px;
     position: relative;
-}
+    }
 
-#block{
-    display: block;
+figure {
+        margin:0;
+    }
+
+/* .parent {
+    max-width: 1700px;
+} */
+
+.banner {
     position: absolute;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
+    background-color: white;
+    width: 40%;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    display: inline;
+
 }
 
-.firstproject {
-    background-image: url() ;
+#imagelarge {
+    background-image: url(./images/winter.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
 }
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+}
+
+.portfolio {
+    width: 100%;
+    margin-right: 2%;
+    margin-top: .5%;
+    display: flex;
+    flex-flow: row wrap;
+    }
+
+.row>* {
+        flex: 1 2 100px;
+    }
+
+#firstproject {
+   width: 100%;
+   }
+
+a:hover {
+    color: rgb(126, 118, 238);
+   }
+
+#about {
+    background: purple;
+   }
+
+#contactme {
+    background: purple;
+   }
+
+/* #work {
+    justify-content: space-between;
+} */
+
+.sidebar {
+    width: 30px;
+    margin-right: 2%;
+    border-right: 2px solid black;
+    /* height: 300px; */
+    padding-right: 5%;
+}
+
+.bannerimage {
+    height: 100px;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    background-size: cover;
+    background-position: center;
+}
+
+/* .two-to-one {
+    display: inline;
+    width: 40%;
+} */
