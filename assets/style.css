@@ -54,9 +54,9 @@ figure {
         margin:0;
     }
 
-/* .parent {
+.parent {
     max-width: 1700px;
-} */
+}
 
 .banner {
     position: absolute;
@@ -100,20 +100,19 @@ figure {
    width: 100%;
    }
 
+#contactmelist{
+  background-color: aquamarine;
+  text-decoration: none;
+  display: inline;
+}
+
 a:hover {
     color: rgb(126, 118, 238);
    }
 
-#about {
-    background: purple;
-   }
 
-#contactme {
-    background: purple;
-   }
-
-/* #work {
-    justify-content: space-between;
+/* #addpaddingtop {
+    padding-top: 20px;
 } */
 
 .sidebar {
@@ -122,7 +121,8 @@ a:hover {
     border-right: 2px solid black;
     /* height: 300px; */
     padding-right: 5%;
-}
+    padding-left: 5%;
+    }
 
 .bannerimage {
     height: 100px;
@@ -132,7 +132,3 @@ a:hover {
     background-position: center;
 }
 
-/* .two-to-one {
-    display: inline;
-    width: 40%;
-} */
