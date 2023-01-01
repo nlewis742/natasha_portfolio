@@ -105,6 +105,7 @@ figure {
   display: flex;
   justify-content: space-around;
   min-width: 100%;
+  flex-wrap: wrap;
 }
 
 .row > * {
