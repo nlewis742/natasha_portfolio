@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: rgba(185, 211, 247, 255);
-  }
+}
 
 header {
   background: rgba(31, 38, 55, 1);
@@ -37,7 +37,7 @@ a:hover {
 
 section {
   display: flex;
- }
+}
 
 .contactflex {
   position: relative;
@@ -48,22 +48,6 @@ section {
   align-items: center;
   flex-wrap: wrap;
 }
-
-/* #ct-one {
-  background-color: rgb(170, 18, 18);
-  }
-
-#ct-two {
-  background-color: darkgreen;
-}
-
-#ct-three {
-  background-color: aqua;
-}
-
-#ct-four {
-  background-color: pink;
-} */
 
 a {
   color: inherit;
@@ -135,5 +119,3 @@ figure {
   flex-flow: row wrap;
 }
 
-/* #addpaddingtop{ padding-top: 20px;
-   } */
