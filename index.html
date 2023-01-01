@@ -1,118 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-
-<body>
-
+  <body>
     <!-- Header with navagational links -->
     <header>
-        <img src="./assets/images/natasha.jpg" alt="My profile picture" style="width: 10%; height: 150px; object-fit: contain">
-        <h1>Natasha</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contactme">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+      <img
+        src="./assets/images/natasha.jpg"
+        alt="My profile picture"
+        style="width: 10%; height: 150px; object-fit: contain"
+      />
+      <h1>Natasha</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contactme">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <figure>
-        <img src="./assets/images/winter.jpg" alt="Winter bannder image" class="bannerimage">
+      <img
+        src="./assets/images/winter.jpg"
+        alt="Winter bannder image"
+        class="bannerimage"
+      />
     </figure>
-    
 
     <main>
-
-    <!-- About me section with my written bio -->
-    <section>
+      <!-- About me section with my written bio -->
+      <section>
         <aside class="sidebar">
-        <h2>About Me</h2>
-    </aside>
-        <article>
-        <p>Hi I'm Natasha.</p>
-
-        <p>Thrilled to be here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem, expedita corrupti tenetur dolores omnis tempora saepe reprehenderit molestiae veritatis, autem dolorum quasi eos possimus praesentium dignissimos nam incidunt distinctio? Thrilled to be here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem, expedita corrupti tenetur dolores omnis tempora saepe reprehenderit molestiae veritatis, autem dolorum quasi eos possimus praesentium dignissimos nam incidunt distinctio? Thrilled to be here.</p>
-        </article>
-    </section>
-
-    <!-- Portfolio section with images of my completed projects -->
-    <section>
-        <aside class="sidebar">
-            <h2>Work</h2>
+          <h2 id="about">About Me</h2>
         </aside>
-         
+        <article>
+          <p>Hi I'm Natasha.</p>
+
+          <p>
+            Thrilled to be here. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Iste rem, expedita corrupti tenetur dolores omnis
+            tempora saepe reprehenderit molestiae veritatis, autem dolorum quasi
+            eos possimus praesentium dignissimos nam incidunt distinctio?
+            Thrilled to be here. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Iste rem, expedita corrupti tenetur dolores omnis
+            tempora saepe reprehenderit molestiae veritatis, autem dolorum quasi
+            eos possimus praesentium dignissimos nam incidunt distinctio?
+            Thrilled to be here.
+          </p>
+        </article>
+      </section>
+
+      <!-- Portfolio section with images of my completed projects -->
+      <section>
+        <aside class="sidebar">
+          <h2 id="work">Work</h2>
+        </aside>
+
         <!-- larger first image showing most recent work -->
         <div class="portfolio">
-        <article id="firstproject">
-           <a href="#" target="_blank"><div id="imagelarge">
-            <div class="banner">
-            <h3>holder1</h3>
-            
-            <p>Lorem ipsum</p>
-            </div>
-            </div></a>
-        </article>
+          <article id="firstproject">
+            <a href="#" target="_blank"
+              ><div id="imagelarge">
+                <div class="banner">
+                  <h3>holder1</h3>
 
-        <!-- smaller images for rest of portfolio -->
-        <div class="row">
-        <article>
-           <a href="#" target="_blank"><img src="./assets/images/cat2.jpg" style="width: 100%; height: 300px; object-fit: cover;" class="two-to-one">
-            <div class="banner">
-            <h3>holder2</h3>
+                  <p>Lorem ipsum</p>
+                </div>
+              </div></a
+            >
+          </article>
 
-            <p>Lorem ipsum</p>
-            </div></a>
-        </article>
-        
-        <article>
-            <a href="#" target="_blank"><img src="./assets/images/cat2.jpg" style="width: 100%; height: 300px; object-fit: cover;" class="two-to-one">
-            <div class="banner">
-            <h3>holder3</h3>
+          <!-- smaller images for rest of portfolio -->
+          <div class="row">
+            <article>
+              <a href="#" target="_blank"
+                ><img
+                  src="./assets/images/cat2.jpg"
+                  style="width: 100%; height: 300px; object-fit: cover"
+                  class="two-to-one"
+                />
+                <div class="banner">
+                  <h3>holder2</h3>
 
-            <p>Lorem ipsum</p>
-            </div></a>
-        </article>
+                  <p>Lorem ipsum</p>
+                </div></a
+              >
+            </article>
+
+            <article>
+              <a href="#" target="_blank"
+                ><img
+                  src="./assets/images/cat2.jpg"
+                  style="width: 100%; height: 300px; object-fit: cover"
+                />
+                <div class="banner">
+                  <h3>holder3</h3>
+
+                  <p>Lorem ipsum</p>
+                </div></a
+              >
+            </article>
+          </div>
         </div>
+      </section>
 
-        </div>
-    </section>
-
-    <!-- Contact me section with phone, email, github and insta links -->
-    <section>
+      <!-- Contact me section with phone, email, github and insta links -->
+      <section>
         <aside class="sidebar">
-            <h2>Contact Me</h2>
+          <h2 id="contactme">Contact Me</h2>
         </aside>
-        <ul>
-            <li>
-                <a href="#" target="_blank">555-555-5555</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">myemail@email.com</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">Github</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">Instagram</a>
-            </li>
-        </ul>
-        
-    </section>
-    
-    </main>
 
-</body>
+        <div class="contactflex">
+          <div id="ct-one">
+            <a href="#" target="_blank">555-555-5555</a>
+          </div>
+          <div id="ct-two">
+            <a href="#" target="_blank">myemail@email.com</a>
+          </div>
+          <div id="ct-three">
+            <a href="#" target="_blank">Github</a>
+          </div>
+          <div id="ct-four">
+            <a href="#" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
