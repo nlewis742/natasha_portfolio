@@ -6,7 +6,7 @@ My (Natasha's) portfolio of work samples that a potential employer can view to a
 
 ## Image
 
-![alt text](placeholder)
+![alt text](./assets/images/_C__Users_16127_bootcamp_myhomework_natasha_portfolio_index.html.png)
 
 ## link
 
