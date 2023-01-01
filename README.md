@@ -6,7 +6,7 @@ A portfolio of my work samples that a potential employer can view to assess if t
 
 ## Image
 
-![alt text](./assets/images/_C__Users_16127_bootcamp_myhomework_natasha_portfolio_index.html.png)
+![alt text](./assets/images/nlewis742.github.io_natasha_portfolio_%20(1).png)
 
 ## Link
 
